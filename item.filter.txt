@@ -244,8 +244,8 @@ ItemDisplay[(ring OR amu) MAG ILVL>90]: %NAME% %WHITE%[%ILVL%]
 ItemDisplay[(ring OR amu) MAG]:
 
 //Jewels
-ItemDisplay[jew MAG !ID]: %TAN%»%WHITE%» %BLUE%%NAME%%WHITE% «%TAN%«
-ItemDisplay[jew RARE !ID]: %TAN%»» %YELLOW%%NAME%%TAN% ««
+ItemDisplay[jew MAG !ID]: %TAN%»%WHITE%» »%BLUE%%NAME%%WHITE%« «%TAN%«
+ItemDisplay[jew RARE !ID]: %TAN%»»%WHITE%»» %YELLOW%%NAME%%WHITE% ««%TAN% ««
 
 //Craftables
 ItemDisplay[(ARMOR OR WEAPON) !(NMAG OR MAG OR RARE OR SET OR UNI)]:
