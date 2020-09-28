@@ -41,7 +41,7 @@ ItemDisplay[vps CLVL>40]:
 ItemDisplay[wms CLVL<61]: %GREEN%!%WHITE%thaw
 ItemDisplay[wms CLVL>60]:
 ItemDisplay[yps]: %GREEN%!%WHITE%a
-ItemDisplay[key]: %GRAY%key
+ItemDisplay[key]:
 //Choking, Exploding, Fulminating, Oil, Rancid, Strangling
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>23]:
 
