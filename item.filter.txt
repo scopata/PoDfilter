@@ -2,15 +2,13 @@
 // twitch.tv/kryszard
 // For Casual and EndGame Players
 //
-// Scop Edit V .13
+// Scop Edit V .14
 
 
 //Gold
 ItemDisplay[GOLD<100 CLVL<20]:
 ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<80)]:
 ItemDisplay[GOLD<5000 CLVL>79]:
-
-//Throws 35k+
 
 //Show me number of sockets on ETH AND ID items
 ItemDisplay[(ARMOR OR WEAPON) ((MAG OR RARE OR SET OR UNI) AND ETH) SOCK>0]: %NAME% %GRAY%ETH %TAN%[%SOCKETS%]
