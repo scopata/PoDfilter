@@ -239,13 +239,6 @@ ItemDisplay[jew MAG !ID]: %TAN%»%WHITE%» »%BLUE%%NAME%%WHITE%« «%TAN%«
 ItemDisplay[jew RARE !ID]: %TAN%»»%WHITE%»» %YELLOW%%NAME%%WHITE% ««%TAN% ««
 
 //Craftables
-ItemDisplay[(ARMOR OR WEAPON) !(NMAG OR MAG OR RARE OR SET OR UNI)]:
-ItemDisplay[uvg MAG]:
-ItemDisplay[xtb MAG]:
-ItemDisplay[(xlg OR ulg) MAG]:
-ItemDisplay[uvc MAG]:
-ItemDisplay[(umg OR xmg) MAG]:
-ItemDisplay[uit MAG]:
 
 //Rare Gloves, Belts and Boots
 ItemDisplay[(EQ4 OR EQ5 OR EQ6) ETH RARE]:
@@ -290,22 +283,21 @@ ItemDisplay[(amu OR uar OR ci3 OR 7qr OR uth) SET !ID]: %PURPLE%»»%RED%»» %D
 
 //RuneWord Bases
 //Faith
-ItemDisplay[amc (NMAG OR RW) TABSK0>2 SOCK=4]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[amc (NMAG OR RW) TABSK0>2 SOCK=0 (!INF)]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[amc (NMAG OR RW) TABSK0>2 SOCK=4]: %GREEN%» » %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%] %GREEN% « «
+ItemDisplay[amc (NMAG OR RW) TABSK0>2 SOCK=0 (!INF AND !SUP)]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[6cb SOCK=4]:
 //Infi/Insi/Pride and Obedience/Doom
-ItemDisplay[(7vo OR 7wc OR 7pa) (ETH AND !INF) AND (SUP NMAG OR RW) (SOCK=0 OR SOCK>3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(7wc OR 7pa OR 7s8 OR 7h7 OR 7br OR 7st) (ETH AND !INF AND !SUP) AND (NMAG OR RW) SOCK=0]:
+ItemDisplay[(7vo OR 7wc OR 7pa) (ETH AND !INF) AND (SUP NMAG OR RW) (SOCK>3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Armors
-ItemDisplay[(xtp OR utp OR uui) (!INF AND !ETH) AND (SUP NMAG OR RW) (SOCK=0 OR SOCK>2)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[EQ2 ELT ETH AND (SUP NMAG OR RW) (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(xtp OR utp OR uui) (!INF AND !ETH) AND (SUP NMAG OR RW) (SOCK>2)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[EQ2 ELT ETH AND (SUP NMAG OR RW) (SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Shields
 ItemDisplay[(pab OR pac) (!INF AND ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK=4) RES>34]:
 ItemDisplay[(pab OR pac) (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>2) RES>34]:
 ItemDisplay[CL3 (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>2) (RES>34 AND CLVL<81)]:
 ItemDisplay[ush (!INF AND !ETH) AND (NMAG OR RW)  SOCK>1]:
 ItemDisplay[uit (!INF AND ETH) AND (NMAG OR RW)  (SOCK=0 OR SOCK=4)]:
-ItemDisplay[uit (!INF AND !ETH) AND (SUP NMAG OR RW)  (SOCK=0 OR SOCK=4)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[uit (!INF AND !ETH) AND (SUP NMAG OR RW)  (SOCK=4)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 
 // SHOW ME THAT UNIQ ITEM IS ETH
 ItemDisplay[UNI AND ETH AND SOCK=0]: %GRAY%ETH %GOLD%%NAME%
