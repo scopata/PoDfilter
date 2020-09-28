@@ -11,7 +11,6 @@ ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<80)]:
 ItemDisplay[GOLD<5000 CLVL>79]:
 
 //Throws 35k+
-//ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]:
 
 //Show me number of sockets on ETH AND ID items
 ItemDisplay[(ARMOR OR WEAPON) ((MAG OR RARE OR SET OR UNI) AND ETH) SOCK>0]: %NAME% %GRAY%ETH %TAN%[%SOCKETS%]
@@ -249,7 +248,7 @@ ItemDisplay[(umg OR xmg) MAG]:
 ItemDisplay[uit MAG]:
 
 //Rare Gloves, Belts and Boots
-ItemDisplay[(EQ4 OR EQ5 OR EQ6) ETH RARE]: %GRAY%ETH %YELLOW%%NAME%
+ItemDisplay[(EQ4 OR EQ5 OR EQ6) ETH RARE]:
 ItemDisplay[(EQ4 OR EQ5 OR EQ6) RARE]: %NAME%
 
 //+3bo weapons and +3/20 gloves and +6foh scpeters
@@ -290,7 +289,6 @@ ItemDisplay[uar UNI !ID]: %PURPLE%»»%RED%»» %ORANGE%»»  %YELLOW%»     %GR
 ItemDisplay[(amu OR uar OR ci3 OR 7qr OR uth) SET !ID]: %PURPLE%»»%RED%»» %DGREEN%»»  %GREEN%»     %NAME%     «  %DGREEN%«« %RED%««%PURPLE%««
 
 //RuneWord Bases
-
 //Faith
 ItemDisplay[amc (NMAG OR RW) TABSK0>2 SOCK=4]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[amc (NMAG OR RW) TABSK0>2 SOCK=0 (!INF)]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
@@ -298,12 +296,9 @@ ItemDisplay[6cb SOCK=4]:
 //Infi/Insi/Pride and Obedience/Doom
 ItemDisplay[(7vo OR 7wc OR 7pa) (ETH AND !INF) AND (SUP NMAG OR RW) (SOCK=0 OR SOCK>3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(7wc OR 7pa OR 7s8 OR 7h7 OR 7br OR 7st) (ETH AND !INF AND !SUP) AND (NMAG OR RW) SOCK=0]:
-
 //Armors
 ItemDisplay[(xtp OR utp OR uui) (!INF AND !ETH) AND (SUP NMAG OR RW) (SOCK=0 OR SOCK>2)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[EQ2 ELT ETH AND (SUP NMAG OR RW) (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-//Helmets
-
 //Shields
 ItemDisplay[(pab OR pac) (!INF AND ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK=4) RES>34]:
 ItemDisplay[(pab OR pac) (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>2) RES>34]:
