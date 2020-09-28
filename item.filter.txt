@@ -2,7 +2,7 @@
 // twitch.tv/kryszard
 // For Casual and EndGame Players
 //
-// Scop Edit V .14
+// Scop Edit V .15
 
 
 //Gold
@@ -222,10 +222,10 @@ ItemDisplay[cm3 TABSK42>0]: %PURPLE%Dru Ele Skiller %GRAY%[%ILVL%]
 ItemDisplay[cm3 TABSK48>0]: %PURPLE%Trap Skiller %GRAY%[%ILVL%]
 
 //All Charms
-ItemDisplay[cm3 MAG !ID ILVL>90]: %PURPLE%»» »» »%BLUE%  %NAME%  %ORANGE%[%WHITE%%ILVL%%ORANGE%]
-ItemDisplay[cm1 MAG !ID]: %GREEN%» » »%BLUE%  %NAME%  %GRAY%[%ILVL%]
-ItemDisplay[cm2 MAG !ID]: %TAN%» » »%BLUE%  %NAME%  %GRAY%[%ILVL%]
-ItemDisplay[cm3 MAG !ID]: %PURPLE%»» »» »%BLUE%  %NAME%  %GRAY%[%ILVL%]
+ItemDisplay[cm3 MAG !ID ILVL>90]: %PURPLE%»» » »%BLUE%  %NAME%  %ORANGE%[%WHITE%%ILVL%%ORANGE%]
+ItemDisplay[cm1 MAG !ID]: %GREEN%» »%BLUE%  %NAME%  %GRAY%[%ILVL%]
+ItemDisplay[cm2 MAG !ID]: %TAN%» »%BLUE%  %NAME%  %GRAY%[%ILVL%]
+ItemDisplay[cm3 MAG !ID]: %PURPLE%» » »%BLUE%  %NAME%  %GRAY%[%ILVL%]
 ItemDisplay[cm3 MAG ILVL>90]: %NAME% %ORANGE%[%WHITE%%ILVL%%ORANGE%]
 ItemDisplay[cm1 OR cm2 OR cm3]: %NAME% %GRAY%[%ILVL%]
 
@@ -235,8 +235,8 @@ ItemDisplay[(ring OR amu) MAG ILVL>90]: %NAME% %WHITE%[%ILVL%]
 ItemDisplay[(ring OR amu) MAG]:
 
 //Jewels
-ItemDisplay[jew MAG !ID]: %TAN%»%WHITE%» »%BLUE%%NAME%%WHITE%« «%TAN%«
-ItemDisplay[jew RARE !ID]: %TAN%»»%WHITE%»» %YELLOW%%NAME%%WHITE% ««%TAN% ««
+ItemDisplay[jew MAG !ID]: %TAN%» %WHITE%» »%BLUE%%NAME%%WHITE%« «%TAN% «
+ItemDisplay[jew RARE !ID]: %TAN%» »%WHITE%» » %YELLOW%%NAME%%WHITE% « «%TAN% « «
 
 //Craftables
 
