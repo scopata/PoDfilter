@@ -2,15 +2,13 @@
 // twitch.tv/kryszard
 // For Casual and EndGame Players
 //
-// Scop Edit V .15
+// Scop Edit V .16
 
 
 //Gold
 ItemDisplay[GOLD<100 CLVL<20]:
 ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<80)]:
 ItemDisplay[GOLD<5000 CLVL>79]:
-
-//Throws 35k+
 
 //Show me number of sockets on ETH AND ID items
 ItemDisplay[(ARMOR OR WEAPON) ((MAG OR RARE OR SET OR UNI) AND ETH) SOCK>0]: %NAME% %GRAY%ETH %TAN%[%SOCKETS%]
@@ -65,9 +63,9 @@ ItemDisplay[leg SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[leg]: %NAME%
 
 //Runes
-ItemDisplay[r01 OR r02 OR r03 OR r07 OR r10 OR r14 OR r16 OR r17]: %ORANGE%%RUNENAME% %GRAY%[%RUNENUM%]
-ItemDisplay[r04 OR r05 OR r06 OR r08 OR r09 OR r11 OR r12 OR r13 OR r15]: %ORANGE%%RUNENAME% %TAN%[%RUNENUM%]
-ItemDisplay[r18 OR r19]: %ORANGE%  %RUNENAME% %WHITE%[%RUNENUM%]  %ORANGE%
+ItemDisplay[r01 OR r02 OR r03 OR r07 OR r10 OR r14]: %ORANGE%%RUNENAME% %GRAY%[%RUNENUM%]
+ItemDisplay[r04 OR r05 OR r06 OR r08 OR r09 OR r11 OR r12 OR r13]: %ORANGE%%RUNENAME% %TAN%[%RUNENUM%]
+ItemDisplay[r15 OR r16 OR r17 OR r18 OR r19]:%WHITE% » %ORANGE%  %RUNENAME% %WHITE%[%RUNENUM%]  %ORANGE%
 ItemDisplay[r20 OR r21 OR r22 OR r23]: %RED%» %PURPLE%» %ORANGE%  %RUNENAME% %GOLD%[%RUNENUM%]  %PURPLE% «%RED% «
 ItemDisplay[r24 OR r25]: %RED%[%RUNENUM%] %PURPLE%»» »    %ORANGE%  %RUNENAME% %GOLD%[%RUNENUM%]    %PURPLE%« ««%RED% [%RUNENUM%]
 ItemDisplay[r26 OR r27 OR r32]: %GREEN%[%RUNENUM%] %PURPLE%»»  »     %ORANGE%%RUNENAME% %GOLD%[%RUNENUM%]%PURPLE%     « «« %GREEN%[%RUNENUM%]
@@ -225,7 +223,7 @@ ItemDisplay[cm3 TABSK48>0]: %PURPLE%Trap Skiller %GRAY%[%ILVL%]
 ItemDisplay[cm3 MAG !ID ILVL>90]: %PURPLE%»» » »%BLUE%  %NAME%  %ORANGE%[%WHITE%%ILVL%%ORANGE%]
 ItemDisplay[cm1 MAG !ID]: %GREEN%» »%BLUE%  %NAME%  %GRAY%[%ILVL%]
 ItemDisplay[cm2 MAG !ID]: %TAN%» »%BLUE%  %NAME%  %GRAY%[%ILVL%]
-ItemDisplay[cm3 MAG !ID]: %PURPLE%» » »%BLUE%  %NAME%  %GRAY%[%ILVL%]
+ItemDisplay[cm3 MAG !ID]: %PURPLE%» »%BLUE%  %NAME%  %GRAY%[%ILVL%]
 ItemDisplay[cm3 MAG ILVL>90]: %NAME% %ORANGE%[%WHITE%%ILVL%%ORANGE%]
 ItemDisplay[cm1 OR cm2 OR cm3]: %NAME% %GRAY%[%ILVL%]
 
