@@ -2,7 +2,7 @@
 // twitch.tv/kryszard
 // For Casual and EndGame Players
 //
-// Scop Edit V .16
+// Scop Edit V .16.1
 
 
 //Gold
@@ -294,8 +294,8 @@ ItemDisplay[(pab OR pac) (!INF AND ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK=4) RES>
 ItemDisplay[(pab OR pac) (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>2) RES>34]:
 ItemDisplay[CL3 (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>2) (RES>34 AND CLVL<81)]:
 ItemDisplay[ush (!INF AND !ETH) AND (NMAG OR RW)  SOCK>1]:
-ItemDisplay[uit (!INF AND ETH) AND (NMAG OR RW)  (SOCK=0 OR SOCK=4)]:
-ItemDisplay[uit (!INF AND !ETH) AND (SUP NMAG OR RW)  (SOCK=4)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[uit (!INF AND ETH) AND (SUP NMAG OR RW)  (SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[uit (!INF AND !ETH) AND (SUP NMAG OR RW)  (SOCK=0 OR SOCK=4)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 
 // SHOW ME THAT UNIQ ITEM IS ETH
 ItemDisplay[UNI AND ETH AND SOCK=0]: %GRAY%ETH %GOLD%%NAME%
