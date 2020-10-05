@@ -267,7 +267,7 @@ ItemDisplay[(pa9 OR nea) UNI !ETH !ID]: %YELLOW%»%TAN%»%GRAY%»     %GOLD%%NAM
 //weapons
 ItemDisplay[(7cr OR 7fl OR 7kr) UNI !ETH !ID]: %YELLOW%»%TAN%»%GRAY%»     %GREEN%½ %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
 ItemDisplay[ama UNI ETH !ID]: %YELLOW%»%TAN%»%GRAY%»     ETH %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
-ItemDisplay[(oba OR ama) UNI !ETH !ID]: %YELLOW%»%TAN%»%GRAY%»     %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
+ItemDisplay[(oba OR ama OR obc) UNI !ETH !ID]: %YELLOW%»%TAN%»%GRAY%»     %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
 
 //GG Uniq Items
 ItemDisplay[(ulc OR xea OR uap OR ulm OR ci3 OR xtb OR 7gw OR obf) UNI ETH !ID]: %YELLOW%»%TAN%»%GRAY%»     ETH %GOLD%%NAME%%GRAY%     «%TAN%«%YELLOW%«
